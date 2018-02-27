@@ -3,7 +3,7 @@ SC.initialize({
 });
 
 
-$(document).ready(function() {
+$(document).ready(function()   {
 
   SC.stream('/tracks/10791358', function(sound) {
   $('#start1').click(function(e) {
@@ -38,7 +38,7 @@ $(document).ready(function() {
   });
 });
 
-SC.stream('/tracks/100244142', function(sound) {
+SC.stream('/tracks/177238124', function(sound) {
  $('#start4').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -60,7 +60,7 @@ SC.stream('/tracks/232631197', function(sound) {
  });
 });
 
-SC.stream('/tracks/318053145', function(sound) {
+SC.stream('/tracks/31949889', function(sound) {
  $('#start6').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -71,4 +71,26 @@ SC.stream('/tracks/318053145', function(sound) {
  });
 });
 
-  });
+SC.stream('/tracks/244347294', function(sound) {
+ $('#start7').click(function(e) {
+   e.preventDefault();
+   sound.start();
+ });
+ $('#stop7').click(function(e) {
+   e.preventDefault();
+   sound.stop();
+ });
+});
+
+SC.stream('/tracks/318053145', function(sound) {
+ $('#start8').click(function(e) {
+   e.preventDefault();
+   sound.start();
+ });
+ $('#stop8').click(function(e) {
+   e.preventDefault();
+   sound.stop();
+ });
+});
+
+});
