@@ -60,7 +60,7 @@ SC.stream('/tracks/232631197', function(sound) {
  });
 });
 
-SC.stream('/tracks/31949889', function(sound) {
+SC.stream('/tracks/244347294', function(sound) {
  $('#start6').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -71,7 +71,7 @@ SC.stream('/tracks/31949889', function(sound) {
  });
 });
 
-SC.stream('/tracks/267845557', function(sound) {
+SC.stream('/tracks/244347294', function(sound) {
  $('#start7').click(function(e) {
    e.preventDefault();
    sound.start();
