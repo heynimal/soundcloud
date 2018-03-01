@@ -91,6 +91,6 @@ SC.stream('/tracks/318053145', function(sound) {
    e.preventDefault();
    sound.stop();
  });
-});
+})
 
 });
